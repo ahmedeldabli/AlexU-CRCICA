@@ -14,10 +14,6 @@
     height: 100px;
 }
 
-.maintenance {
-    color: #404b9a;
-}
-
 
 .aw-heading {
     display: block;
@@ -31,9 +27,27 @@
 }
 
 #home-section {
- 
+    background-size: cover;
+    height: 100%;
 }
-.logo {
+
+.logo_cover{
+    margin-top: 100px;
+    height: 400px;
+}
+
+.event-title {
+    margin-top: 0px;
+}
+.sponsors{
+    margin: 100px 0;
+}
+
+.cover_diff {
+    margin-top: 8rem;
+}
+
+.Cover_Image {
     width: 100%;
     height: auto;
 }
@@ -163,25 +177,24 @@
     margin: auto;
 }
 .alltypes {
-    max-width: 1250px;
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     
 }
 .chit {
+    list-style: none;
     flex: 1 1 140px;
-    margin: 40px 30px;
+    margin: 80px 30px;
     font-size: 1.5em;
     line-height: 2.2rem;
     text-align: center;
-
 }
 
 
 .type {
-    box-shadow: 0 0 10px 0 rgba(16,16,69,.2);
-    margin: 0 auto;
+    box-shadow: 0 0 3px 0 rgba(10,10,10,.5);
     flex: 1 1 140px;
     min-width: 140px;
     margin: 20px auto;
@@ -273,9 +286,7 @@
 .footer {
     margin-top: 150px;  
 }
-.list {
-    margin-left: 5px;
-}
+
 .bg-light.p-3.pt-5.footer {
     background-color: #80808080 !important;
 }
@@ -291,7 +302,6 @@
 
 .Alexu-title {
     color: #06446c;
-    font-weight: 900;
 }
 .alexu-text {
     font-size: 1.125rem;

@@ -13,47 +13,109 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="vendor/bootstrap/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="img compresed/AlexU-Crcica-Logo.png">
-
-    
-
+    <link rel="icon" href="img compresed/cc png white.png">
 </head>
 <body>
-    <section id="home-section" class="text-dark">
-        <img class="logo" src="img compresed/BA-Logo.jpeg" alt="">
-    </section>
-    <br>
-    <br>
-    <br>
-    <section>
-        <h3 class="text-center font-weight-bold maintenance">UNDER MAINTENANCE</h2>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img class="logo-image" src="img compresed/cc png white.png" alt="" loading = "lazy"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto nav-text">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</button>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="the_initiative.html">The Initiative</a>
+                            <a class="dropdown-item" href="alexandriaU.html">Alexandria University</a>
+                            <a class="dropdown-item" href="crcica.html">The CRCICA</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sponsors.html" class="nav-link">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="upcoming_events.html" class="nav-link">ْUpcoming Events</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="our-people.html" class="nav-link">Our People</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact-us.html" class="nav-link" >Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home-section" class="text-light">
+        <div class="d-flex flex-column align-items-center justify-content-center aw-vertical-align">
+            <img class="logo_cover" src="img compresed/cc png.png" alt="">
             <br>
-            <h4 class="text-center">We are currently developing our website, and will be back shortly.
-                <br>In order to be updated with our news and activity, please follow us on our social media platforms.</h4>
+            <h1 class="text-center aw-heading event-title">ALEXU-CRCICA<br>PRE-MOOT & CONFERENCE II</h1>
             <br>
-            <ul class="list-inline text-center">
-                <li class="list-inline-item list">
-                    <a href = "https://www.facebook.com/AlexandriaU.CRCICA/" target="_blank" class="text-danger">
-                        <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-                    </a>
-                </li> 
-                <li class="list-inline-item list">
-                    <a href="https://www.linkedin.com/company/alexandriau-crcica/" target="_blank" class="text-danger">
-                        <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item list">
-                    <a href="https://www.instagram.com/alexucrcicapremoot/" target="_blank" class="text-danger">
-                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item list">
-                    <a href="" target="_blank" class="text-danger">
-                        <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
-                    </a>
-                </li>
-            </ul>
+            <div class="button-box action-buttons">
+                <a href="pre_moot.html">
+                    <button id="btnRegister" class="btn btn-primary aw-padding custom" type="button">The Pre-Moot</button>
+                </a>
+                <a href="conference.html" target="_blank">
+                    <button id="btnBecomeSponsor" class="btn btn-light rounded-0 aw-padding custom" type="button">The Conference</button>
+                </a>
+            </div>
     </section>
+    <section class="contianer-fluid"> 
+        <div class="pt-3 pb-2 text-center auspices-size">Under The Auspices of</div>
+        <div class="text-center logo-d">
+            <a href="https://crcica.org/" target="_blank"><img class="crcica-logo Auspices" src="img compresed/CRICICA-Logo cropped.png" alt="CRCICA-Logo" class="rounded float-left"></a>
+            <a href="http://alexu.edu.eg/index.php/ar/" target="_blank"><img class="AlexU-Logo Auspices" src="img compresed/Alexandria University.png" alt="Alexandria University" class="rounded float-right"></a>
+        </div>
+        <div class="pt-3 pb-2 text-center auspices-size Hosted">Hosted by</div>
+        <br>
+        <div class="text-center Strategic">
+            <a href="https://crcica.org/" target="_blank"><img class="crcica-logo Auspices" src="img compresed/CRICICA-Logo cropped.png" alt="CRCICA-Logo" class="rounded float-left"></a>
+        </div>
+        <div class="pt-3 pb-2 text-center auspices-size platinum">Platinum Sponsor</div>
+        <br>
+        <div class="text-center">
+            <a href="http://shahidlaw.com/" target="_blank"><img class="Shahid-law-frim gold" src="img/Golden Sponsors/Shahid-law-frim.png" alt="Shahid-law-frim" class="rounded"></a>
+        </div>
+        <br>
+        <div class="pt-3 pb-2 text-center auspices-size gold-sponsors ">Gold Sponsor</div>
+        <br>
+        <div class="text-center gold-sponsors">
+            <a href="http://www.eldibadvocates.com/ar/" target="_blank"><img class="eldeeb-logo gold" src="img/Golden Sponsors/eldeeb-logo.png" alt="Eldeeb-Logo" class="rounded"></a>
+        </div>
+        <br>
+        <div class="pt-3 pb-2 text-center auspices-size gold-sponsors ">Bronze Sponsor</div>
+        <br>
+        <div class="text-center gold-sponsors">
+            <a href="https://matoukbassiouny.com/" target="_blank"><img class="matouk_bassiouny gold" src="img/Golden Sponsors/MBH-Logo.svg" alt="matouk_bassiouny" class="rounded"></a>
+        </div>
+        <br>
+        <div class="pt-3 pb-2 text-center auspices-size Strategic">Strategic Partners</div>
+        <br>
+        <div class="text-center partners-logos">
+            <a href="https://afaa.ngo/" target="_blank"><img class="strategic-Logo" src="img/Strategic Partners/afaa logo.png" alt="afaa logo" class="rounded"></a>
+            <a href="https://cldp.doc.gov/" target="_blank"><img class="strategic-Logo" src="img/Strategic Partners/cldp.png" alt="CLDP logo" class="rounded"></a>
+            <a href="https://www.law.pitt.edu/centers/center-international-legal-education" target="_blank"><img class="strategic-Logo" src="img/Strategic Partners/CIL.png" alt="afaa logo" class="rounded"></a>
+            <a href="https://www.ciarb.org/our-network/middle-east-subcontinent/egypt/" target="_blank"><img class="strategic-Logo" src="img/CIArb Egypt Branch_logo.png" alt="CIArb-logo" class="rounded"></a>
+            <a href="alendar.google.com/calendar/u/0/r/month" target="_blank"><img class="strategic-Logo" src="img/MAA Logo.jpeg" alt="MAA-logo" class="rounded"></a>
+        </div>
+        <div class="pt-3 pb-2 text-center auspices-size Media">Media Partner</div>
+        <div class="text-center">
+            <a href="https://thelaw.me/" target="_blank"><img class="the-law" src="img/Media Partners/The Law.png" alt="THELAW" class="rounded"></a>
+        </div>
+
+    </section>
+    
+
     <footer class="bg-light p-3 pt-5 footer">
         <h6 class="pt-3 pb-2 text-center">Stay Conected</h6>
         <ul class="list-inline text-center">
@@ -68,7 +130,7 @@
                 </a>
             </li>
             <li class="list-inline-item list">
-                <a href="https://www.instagram.com/alexucrcicapremoot/" target="_blank" class="text-danger">
+                <a href="https://www.instagram.com/alexucrcica/" target="_blank" class="text-danger">
                     <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                 </a>
             </li>
