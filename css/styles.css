@@ -239,6 +239,11 @@
 .buttonColor1:hover, .buttonColor1:focus, .buttonColor1:active{
     background: #0a6aa9 !important;
 }
+.buttonColor3 {
+    background: #f8f9fa;
+    color: black;
+
+}
 
 .buttonColor2 { 
     background-color: #085587;
